@@ -15,16 +15,16 @@ export const LandingView: React.FC<LandingProps> = ({ onStart }) => {
                     <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
                     Now with Gemini 2.5
                 </div>
-                
+
                 <h1 className="text-5xl md:text-7xl font-bold text-slate-800 mb-6 tracking-tight leading-[1.1]">
-                    Question Everything.<br/>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-700 to-slate-400">Research the Truth.</span>
+                    The Alternative Cosmology<br />
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-500">Intelligence Hub</span>
                 </h1>
-                
+
                 <p className="text-lg md:text-xl text-slate-500 mb-10 max-w-2xl mx-auto leading-relaxed">
-                    Big Bang Hoax combines your proprietary PDF knowledge base with real-time web search and deep reasoning. Challenge established theories with data.
+                    Join a community of critical thinkers questioning the status quo. Analyze redshift anomalies, debate cosmological models, and explore the universe beyond the Big Bang using our specialized AI research tools.
                 </p>
-                
+
                 <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-20">
                     <Button onClick={onStart} className="px-8 py-4 text-lg rounded-2xl shadow-xl shadow-slate-200 hover:shadow-2xl hover:-translate-y-1 transition-all">
                         Start Investigation <ChevronRight className="ml-2 w-5 h-5" />
